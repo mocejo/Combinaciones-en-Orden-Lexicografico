@@ -15,23 +15,23 @@ Después, todas estas combinaciones son impresas en un archivo csv.
 
 1. Clonar el repositorio
 ``` sh
-git clone https://github.com/mocejo/Evaluacion-de-Polinomios.git
+git clone https://github.com/mocejo/Combinaciones-en-Orden-Lexicografico.git
 ```
 2. Entrar al directorio del proyecto
 ```sh
-cd Evaluacion-de-Polinomios
+cd Combinaciones-en-Orden-Lexicografico
 ```
 3. Compilar el código 
 ```sh
-g++ "Archivo CPP/EvaluacionDePolinomios.cpp" -o EvaluacionDePolinomios
+g++ "Archivo CPP/OrdenLexicografico.cpp" -o OrdenLexicografico
 ```
 4. Ejecutar código
 ```sh
-./EvaluacionDePolinomios
+./OrdenLexicografico
 ```
 **Forma práctica:**  
 
-Descargar el archivo ```EvaluacionDePolinomios.cpp``` y compilar desde un IDE a su preferencia.
+Descargar el archivo ```OrdenLexicografico.cpp``` y compilar desde un IDE a su preferencia.
 
 
 # Explicación del algoritmo
