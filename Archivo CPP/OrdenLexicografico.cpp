@@ -15,19 +15,19 @@ int main() {
     int n, r;
 
     cout << "Este es un programa que calcula las combinaciones de n elementos tomados de r en r.\n" << endl;
-    cout << "Considere el valor de n como el tamaño del conjunto y el valor de r como el tamaño de la combinacion.\n" << endl;
+    cout << "Considere el valor de n como el tamaño del conjunto y el valor de r como el tama\244o de la combinacion.\n" << endl;
     cout << "De forma en que el conjunto sera {1, 2, 3, ..., n}.\n" << endl;
 
-    capturarNumero(n, "Ingrese el tamaño del conjunto en un rango de [1, 22]: ");
+    capturarNumero(n, "Ingrese el tama\244o del conjunto en un rango de [1, 22]: ");
     while (n <= 0 || n > 22) { // Limitar el tamaño del conjunto a un máximo de 22 
-        cout << "El tamaño del conjunto debe ser un número positivo menor o igual a 2. Intente nuevamente.\n";
-        capturarNumero(n, "Ingrese el tamaño del conjunto en un rango de [1, 22]: ");
+        cout << "El tama\244o del conjunto debe ser un número positivo menor o igual a 2. Intente nuevamente.\n";
+        capturarNumero(n, "Ingrese el tama\244o del conjunto en un rango de [1, 22]: ");
     }
 
-    capturarNumero(r, "Ingrese el tamaño de la combinacion: ");
+    capturarNumero(r, "Ingrese el tama\244o de la combinacion: ");
     while (r < 0 || r > n) {
-        cout << "El tamaño de la combinacion debe estar entre 0 y " << n << ". Intente nuevamente.\n";
-        capturarNumero(r, "Ingrese el tamaño de la combinacion (r): ");
+        cout << "El tama\244o de la combinacion debe estar entre 0 y " << n << ". Intente nuevamente.\n";
+        capturarNumero(r, "Ingrese el tama\244o de la combinacion (r): ");
     }
 
     
