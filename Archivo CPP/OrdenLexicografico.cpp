@@ -15,7 +15,7 @@ int main() {
     int n, r;
 
     cout << "Este es un programa que calcula las combinaciones de n elementos tomados de r en r.\n" << endl;
-    cout << "Considere el valor de n como el tama\244oo del conjunto y el valor de r como el tama\244o de la combinacion.\n" << endl;
+    cout << "Considere el valor de n como el tama\244o del conjunto y el valor de r como el tama\244o de la combinacion.\n" << endl;
     cout << "De forma en que el conjunto sera {1, 2, 3, ..., n}.\n" << endl;
 
     capturarNumero(n, "Ingrese el tama\244o del conjunto en un rango de [1, 22]: ");
